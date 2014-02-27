@@ -1,0 +1,14 @@
+dn: cn=<user>,<usuffix>,<suffix>
+objectClass: account
+objectClass: posixAccount
+objectClass: simpleSecurityObject
+cn: <user>
+uid: <user>
+uidNumber: <uid>
+gidNumber: <gid>
+homeDirectory: <home>
+loginShell: <shell>
+gecos: <user>
+description: User account
+userPassword: 
+
