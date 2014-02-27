@@ -1,0 +1,11 @@
+dn: ou=people,dc=sandbox,dc=net
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=sandbox,dc=net
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=hosts,dc=sandbox,dc=net
+objectClass: organizationalUnit
+ou: hosts
