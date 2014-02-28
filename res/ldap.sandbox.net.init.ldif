@@ -9,3 +9,17 @@ ou: groups
 dn: ou=hosts,dc=sandbox,dc=net
 objectClass: organizationalUnit
 ou: hosts
+
+dn: cn=sandbox-admin,ou=people,dc=sandbox,dc=net
+objectClass: account
+objectClass: posixAccount
+objectClass: simpleSecurityObject
+cn: sandbox-admin
+uid: sandbox-admin
+uidNumber: 1000
+gidNumber: 1000
+homeDirectory: /home/sandbox-admin
+loginShell: /bin/bash
+gecos: sandbox-admin
+description: User account
+userPassword: 
