@@ -22,4 +22,34 @@ homeDirectory: /home/sandbox-admin
 loginShell: /bin/bash
 gecos: sandbox-admin
 description: User account
-userPassword: 
+userPassword:: e21kNX1IT1c0UUZQQ0JpMFhMTWs1N1NYWVdnPT0=
+
+dn: cn=sandbox-admin,ou=groups,dc=sandbox,dc=net
+objectClass: posixGroup
+objectClass: top
+cn: sandbox-admin
+gidNumber: 1000
+userPassword:
+
+dn: cn=sandbox-drive-users,ou=groups,dc=sandbox,dc=net
+objectClass: posixGroup
+objectClass: top
+cn: sandbox-drive-users
+gidNumber: 1001
+memberUid: sandbox-admin
+userPassword:
+
+dn: cn=host.sandbox.net,ou=hosts,dc=sandbox,dc=net
+objectClass: device
+objectClass: ipHost
+objectClass: top
+cn: host.sandbox.net
+ipHostNumber: 192.168.56.1
+
+dn: cn=sandbox.net,ou=hosts,dc=sandbox,dc=net
+objectClass: device
+objectClass: ipHost
+objectClass: top
+cn: sandbox.net
+cn: ldap.sandbox.net
+ipHostNumber: 192.168.56.2
