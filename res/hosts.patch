@@ -3,7 +3,7 @@
 @@ -1,5 +1,6 @@
  127.0.0.1	localhost
 -127.0.1.1	sandbox.net	sandbox
-+127.0.1.1	sandbox.net	ldap.sandbox.net
++127.0.1.1	sandbox	sandbox.net	ldap.sandbox.net
 +192.168.56.1	host.sandbox.net
  
  # The following lines are desirable for IPv6 capable hosts
