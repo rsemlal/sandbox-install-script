@@ -1,0 +1,17 @@
+--- interfaces.original	2014-03-03 21:16:05.580729290 +0100
++++ interfaces.new	2014-03-03 21:18:54.004903869 +0100
+@@ -8,3 +8,14 @@
+ # The primary network interface
+ auto eth0
+ iface eth0 inet dhcp
++
++# The gust/host network interface
++auto eth1
++iface eth1 inet static
++	address 192.168.56.2
++	netmask 255.255.255.0
++	dns-nameservers 8.8.8.8
++
++# The bridge network interface
++auto eth2
++iface eth2 inet dhcp

@@ -1,0 +1,8 @@
+--- fstab.original	2014-03-03 21:28:39.035602870 +0100
++++ fstab.new	2014-03-03 21:31:59.383615626 +0100
+@@ -10,3 +10,5 @@
+ UUID=328a60c8-0928-4190-b335-f5d9218c8944 /               ext4    errors=remount-ro 0       1
+ # swap was on /dev/sda5 during installation
+ UUID=28ab0ffe-9259-40f1-b31c-b4af99e9a8b6 none            swap    sw              0       0
++# sandbox drive
++sandbox-drive	${mountpoint}	vboxsf	_netdev,umask=${umask},gid=${gid},uid=${uid}	0	0

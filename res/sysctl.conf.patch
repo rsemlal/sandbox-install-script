@@ -1,0 +1,7 @@
+--- sysctl.conf.original	2014-03-03 21:36:52.919626371 +0100
++++ sysctl.conf.new	2014-03-03 21:38:05.459632390 +0100
+@@ -58,3 +58,4 @@
+ # Log Martian Packets
+ #net.ipv4.conf.all.log_martians = 1
+ #
++vm.swappiness = 10

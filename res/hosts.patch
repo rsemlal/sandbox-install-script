@@ -1,0 +1,10 @@
+--- hosts.original	2014-03-03 21:21:56.596155741 +0100
++++ hosts.new	2014-03-03 21:23:55.835747913 +0100
+@@ -1,5 +1,6 @@
+ 127.0.0.1	localhost
+-127.0.1.1	sandbox.net	sandbox
++127.0.1.1	sandbox.net	ldap.sandbox.net
++192.168.56.1	host.sandbox.net
+ 
+ # The following lines are desirable for IPv6 capable hosts
+ ::1     ip6-localhost ip6-loopback

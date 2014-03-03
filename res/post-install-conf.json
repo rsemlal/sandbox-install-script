@@ -1,0 +1,16 @@
+{
+	"vbox-version": "4.3.6",
+	"sandbox-drive": {
+		"umask": "0002",
+		"group-name": "sandbox-drive-users",
+		"owner-name": "sandbox-admin",
+		"mountpoint": "/media/sandbox-drive",
+		"symlink": "/sandbox-drive"
+	},
+	"vbox-additions": {
+		"url-pattern": "http://download.virtualbox.org/virtualbox/%s/VBoxGuestAdditions_%s.iso",
+		"iso-prefix": "VBoxGuestAdditions.iso",
+		"mount-point": "/media/vbox_additions",
+		"executable-path": "VBoxLinuxAdditions.run"
+	}
+}
