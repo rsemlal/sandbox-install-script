@@ -4,7 +4,7 @@
 		"umask": "0002",
 		"group-name": "sandbox-drive-users",
 		"owner-name": "sandbox-admin",
-		"mountpoint": "/media/sandbox-drive",
+		"mountpoint": "/media/sandbox-drive-folder",
 		"symlink": "/sandbox-drive"
 	},
 	"vbox-additions": {
