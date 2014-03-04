@@ -9,7 +9,7 @@
 	},
 	"vbox-additions": {
 		"url-pattern": "http://download.virtualbox.org/virtualbox/%s/VBoxGuestAdditions_%s.iso",
-		"iso-prefix": "VBoxGuestAdditions.iso",
+		"iso-prefix": "VBoxGuestAdditions-",
 		"mount-point": "/media/vbox_additions",
 		"executable-path": "VBoxLinuxAdditions.run"
 	}
